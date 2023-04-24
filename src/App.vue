@@ -1,10 +1,10 @@
 <template>
   <div style="display: flex; flex-direction: row">
     <div style="flex-basis: 33%">
-      <GamesList />
+      <MoviesList />
     </div>
     <div style="flex-basis: 33%">
-      <MoviesList />
+      <GamesList />
     </div>
     <div style="flex-basis: 33%">
       <PeopleList />
