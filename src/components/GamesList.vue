@@ -9,12 +9,14 @@
         {{ item }}
       </li>
     </ul>
+    <button type="button" @click="ItemRemove()">Remover</button>
   </div>
 </template>
 <script>
+import RemoveItemMixinList from "@/mixins/RemoveItemMixinList";
 import MixinsList from "@/mixins/MixinsList";
 export default {
   name: "GamesList",
-  mixins: [MixinsList],
+  mixins: [MixinsList, RemoveItemMixinList],
 };
 </script>
