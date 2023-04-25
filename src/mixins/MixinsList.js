@@ -9,4 +9,7 @@ export default {
         this.item = "";
       },
     },
+    created(){
+       console.log('Mixin criado')
+    },
   };
